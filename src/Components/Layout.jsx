@@ -48,19 +48,19 @@ const Layout = () => {
 
     return (
         <div className='container'>
-            <h1>Expense Tracker</h1>
+            <h1>Expense Tracker 💸</h1>
            
                 {/* Displaying the balance,income and expense */}
                 <div className="present-display">
                     <div className='balance'>
-                        <h2>Balance: ${balance}</h2>
+                        <h2>Balance: ₹{balance}</h2>
                     </div>
                     <div className='lf-rt_boxes'>
                         <div className='income'>
-                            <h3>Income: ${income}</h3>
+                            <h3>Income: ₹{income}</h3>
                         </div>
                         <div className='expense'>
-                            <h3>Expense: ${expense}</h3>
+                            <h3>Expense: ₹{expense}</h3>
                         </div>
                     </div>
                 </div>
