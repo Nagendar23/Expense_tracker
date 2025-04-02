@@ -97,7 +97,7 @@ const Layout = () => {
                         transactions.map((item)=>(
                             <div key={item.id} className='transaction-item'>
                                 
-                                <p>{item.name} - ${item.amount.toFixed(2)} ({item.type})</p>
+                                <p>{item.name} - ₹{item.amount.toFixed(2)} ({item.type})</p>
                                 <button className='item-del' onClick={()=> deleteTransaction(item.id,item.amount,item.type)}>X</button>
                             </div>
                         ))
